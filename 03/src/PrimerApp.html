@@ -1,0 +1,30 @@
+
+
+class ListaEmpleados extends React.Component { 
+  renderEmpleado ( ) {
+
+  return 
+  }
+
+   render  () {
+    
+    return (
+        <ul>
+         {
+           this.props.empleados.map(empleado => {
+           return (<Empleado
+           nombre={empleado.nombre}
+           email={empleado.email}
+           imagen={empleadoimagen}
+           />);
+           }); 
+       
+        }
+       </ul>  
+      );
+  
+  }
+
+}
+
+
